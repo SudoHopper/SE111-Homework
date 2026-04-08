@@ -1,0 +1,33 @@
+#nav{
+    background-color: wheat; 
+    border: 3px solid black;
+    width: 230px;
+}
+#header{
+    background-color: aliceblue;
+    width: 370px;
+    padding-left: 10px;
+    border: 3px solid black;
+}
+body{
+    background-color: blanchedalmond;
+}
+#biosentance{
+    background-color: whitesmoke;
+    width: 600px;
+    border: 3px double black;
+}
+li{
+    border: 3px dotted black;
+}
+ol{
+    background-color: azure; 
+    width: 300px;
+}
+ul{
+    background-color: azure; 
+    width: 500px;
+}
+#footer{
+    background-color: red;
+}
