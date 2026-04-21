@@ -51,7 +51,7 @@ a:hover{
     transition: transform 0.5s ease-in-out;
 }
 .Movie2:hover {
-  transform: rotate(360deg); /* Performs one full rotation */
+  transform: rotate(360deg);
 }
 #content2{
     border:  5px solid black;
