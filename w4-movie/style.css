@@ -8,10 +8,12 @@ body{
     border:  5px solid black;
     width: 1000px;
     height: 900px;
-    background-color: cadetblue;
+    background-color: red;
     text-align: center;
+    color: wheat;
 }
 #header{
+    width: 1000px;
     height: 90px;
     border:  5px solid black;
     text-align: center;
@@ -55,10 +57,11 @@ a:hover{
     border:  5px solid black;
     width: 1000px;
     height: 900px;
-    background-color: cadetblue;
+    background-color: silver;
     text-align: center;
 }
 #header2{
+    width: 1000px;
     height: 90px;
     border:  5px solid black;
     text-align: center;
