@@ -46,4 +46,39 @@ a:hover{
 .Movie2{
     width: 100xp;
     height: 550px;
+    transition: transform 0.5s ease-in-out;
+}
+.Movie2:hover {
+  transform: rotate(360deg); /* Performs one full rotation */
+}
+#content2{
+    border:  5px solid black;
+    width: 1000px;
+    height: 900px;
+    background-color: cadetblue;
+    text-align: center;
+}
+#header2{
+    height: 90px;
+    border:  5px solid black;
+    text-align: center;
+}
+#nav2{
+    height: 50px;
+    text-align: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-top: 25px;
+    border-spacing: 10px;
+}
+.Confirm{
+    height: 250px;
+}
+.spin-image {
+  transition: transform 0.5s ease-in-out;
+
+}
+
+.spin-image:hover {
+  transform: rotate(360deg);
 }
