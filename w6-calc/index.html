@@ -24,15 +24,25 @@
         var gp = 0
         var us = 0
         var np = 0
+        var Grosspay = document.querySelector("#Pay")
+        var Unclesam = document.querySelector("#Sam")
+        var Netpay = document.querySelector("#Net")
 
         function calc(x,y)
         {
-            hw * 2 = hw
-            hp * hw = gp
-            gp * tr = us
-            gp - us = np
+            hw = hw * 2; 
+            gp = hp * hw;  
+            us = gp * tr;  
+            np = gp - us; 
+            
         } 
-        
+        function answer()
+        {
+            Grosspay.innerHTML = gp
+            Unclesam.innerHTML = us
+            Netpay.innerHTML = np
+        }
+
     </script>
 </body>
 </html>
