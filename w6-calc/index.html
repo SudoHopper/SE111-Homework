@@ -28,20 +28,23 @@
         var Unclesam = document.querySelector("#Sam")
         var Netpay = document.querySelector("#Net")
 
-        function calc(x,y)
+        function calc()
         {
             hw = hw * 2; 
             gp = hp * hw;  
-            us = gp * tr;  
+            us = gp * (tr / 100);  
             np = gp - us; 
             
         } 
         function answer()
         {
-            Grosspay.innerHTML += gp
-            Unclesam.innerHTML += us
-            Netpay.innerHTML += np
+            Grosspay.innerHTML = gp
+            Unclesam.innerHTML = us.toFixed(2)
+            Netpay.innerHTML = np.toFixed(2)
         }
+
+        calc()
+        answer()
 
     </script>
 </body>
